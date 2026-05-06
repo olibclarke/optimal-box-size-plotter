@@ -1,6 +1,6 @@
 # cryoEM Optimal Box Size Plotter
 
-Plot the [Rosenthal & Henderson](https://pubmed.ncbi.nlm.nih.gov/14568533/) estimate for optimal cryoEM particle box size as a function of defocus and target resolution.
+Plots the [Rosenthal & Henderson](https://pubmed.ncbi.nlm.nih.gov/14568533/) estimate for optimal cryoEM particle box size as a function of defocus and target resolution.
 
 The script uses:
 
