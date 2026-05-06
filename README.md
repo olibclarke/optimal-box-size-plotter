@@ -71,4 +71,4 @@ python3 optimal_box_size.py  --diameter 50 --voltage 300 --pixel-size 0.412 --de
 
 Use the contour plot to estimate the required box size for your expected defocus and target resolution (and use when planning data collection to estimate a useful defocus range!):
 
-![](image.png)
+![example plot](./example_plot.png)
