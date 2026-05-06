@@ -37,10 +37,7 @@ This plots optimal box size in Angstroms.
 Provide the calibrated pixel size in Angstroms/pixel:
 
 ```bash
-python optimal_box_size.py \
-  --diameter 250 \
-  --voltage 300 \
-  --pixel-size 1.05
+python optimal_box_size.py --diameter 250 --voltage 300 --pixel-size 1.05
 ```
 
 In pixel mode, contour lines are drawn at a selection of FFT-friendly good box sizes.
