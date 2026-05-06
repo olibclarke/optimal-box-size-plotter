@@ -16,7 +16,9 @@ where:
 - `DeltaF` = defocus, Å
 - `d` = target resolution, Å
 
-Defocus is entered in micrometers and converted internally to Angstroms.
+Defocus is entered in microns and converted internally to Angstroms.
+
+Script was written with the assistance of ChatGPT; it is fairly simple and I have checked it, but please report errors/bugs if you encounter any.
 
 ## Requirements
 
