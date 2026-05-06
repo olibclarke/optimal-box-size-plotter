@@ -27,7 +27,7 @@ pip install numpy matplotlib
 ## Basic usage
 
 ```bash
-python optimal_box_size.py --diameter 250 --voltage 300
+python3 optimal_box_size.py --diameter 250 --voltage 300
 ```
 
 This plots optimal box size in Angstroms.
