@@ -64,6 +64,7 @@ python3 optimal_box_size.py  --diameter 50 --voltage 300 --pixel-size 0.412 --de
 --line-color        Contour line and label color. Default: white.
 --output            Output image filename. Default: optimal_box_size_plot.png.
 --dpi               Output image DPI. Default: 300.
+--box-size          Shades the region (for a provided box size) that may be affected by CTF aliasing.
 ```
 
 ## Choosing a box size
@@ -71,3 +72,7 @@ python3 optimal_box_size.py  --diameter 50 --voltage 300 --pixel-size 0.412 --de
 Use the contour plot to estimate the required box size for your expected defocus and target resolution (and use when planning data collection to estimate a useful defocus range!):
 
 ![example plot](./example_plot.png)
+
+Provide the `--box-size` argument to highlight the region that may be affected by [CTF aliasing](https://guide.cryosparc.com/cryo-em-foundations/image-formation/aliasing) at the selected box size:
+
+![alias_plot](./optimal_box_alias.png)
