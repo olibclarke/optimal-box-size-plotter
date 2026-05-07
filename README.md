@@ -76,3 +76,5 @@ Use the contour plot to estimate the required box size for your expected defocus
 Provide the `--box-size` argument to highlight the region that may be affected by [CTF aliasing](https://guide.cryosparc.com/cryo-em-foundations/image-formation/aliasing) at the selected box size:
 
 ![alias_plot](./optimal_box_alias.png)
+
+So in this instance, for example, at a box size of 384 px & defocus of 2µm, aliasing is expected at resolutions better than 5Å; while at a defocus of 1µm, aliasing is not expected until 2.5Å at this box size.
